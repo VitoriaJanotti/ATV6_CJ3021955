@@ -29,26 +29,63 @@
                     break;
 
                 case 2:
-                    Console.WriteLine("ATIVIDADE 2");
-                   
-                    int i1 = 0 , n;
 
-                    Console.WriteLine("Escreva um número inteiro aleatório: ");
-                    n = int.Parse(Console.ReadLine());
-
-                    while (i1 <= n)
+                    Console.WriteLine("EXERCÍCIO 2");
+                        
+                    int num, i = 0;
+ 
+                    Console.WriteLine("digite um num inteiro");
+                    num = int.Parse(Console.ReadLine());
+ 
+ 
+                    while (i <= num)
                     {
-                        if (i1 % 2 == 0) ;
-                        {
-                            Console.WriteLine(i1);
-                        }
-                        i1++;
+                        if (i % 2 == 0)
+                    {
+                        Console.WriteLine(i);
                     }
+                        i++;
+                    }
+                    break;
+                    
+                case 3:
+                    Console.WriteLine("EXERCÍCIO 3");
+
+                        int i, num = 1000;
+ 
+                    Console.WriteLine("digite um numero inteiro");
+                    i= int.Parse(Console.ReadLine());
+ 
+                    while ( i <= num)
+                    {
+                        if (i % 2 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
+                        i++;
+                    }
+                    break;
+
+                case 4:
+                    Console.WriteLine ("EXERCÍCIO 4");
 
                     break;
 
+                case 5:
+                    Console.Write.Line ("EXERCÍCIO 5");
 
+                    break;
 
+                case 6:
+                    Console.Write.Line ("EXERCÍCIO 6");
+
+                    break;
+
+                case 7: 
+                    Console.Write.Line ("EXERCÍCIO 7")
+
+                    break;
+                    
                 default:
                     Console.WriteLine("opção inválida");
                     break;
